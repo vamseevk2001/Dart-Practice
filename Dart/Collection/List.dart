@@ -31,9 +31,17 @@ void main(){
   print(fruits.length);
   print(fruits.length);
 
-  while(fruits.iterator.moveNext()){
-    print(fruits.iterator.current);
-  }
+  // while(fruits.iterator.moveNext()){
+  //   print(fruits.iterator.current);
+  // }
+
+  final numbers = List<int>.generate(10, (index) => 9 * (index+1));
+
+  final evenNum = List.generate(10, (index) => index*2);
+
+  print(evenNum);
+
+  print(numbers);
 
 
 }
